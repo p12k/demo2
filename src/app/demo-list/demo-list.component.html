@@ -1,0 +1,70 @@
+ <table class="table table-hover">
+
+        <tr *ngFor="let emp of allEmployee">
+
+<td>{{emp.firstname}}</td>
+<td>{{emp.Lastname}}</td>
+<td>{{emp.designation}}</td>
+<td>{{emp.contact}}</td>
+<td>{{emp.address}}</td>
+
+     <td>
+       <td>
+                <a class="btn" (click)="editEmployee(emp)">
+                                <i class="fa fa-edit"></i>
+                              </a>
+  
+        </td>
+        
+        <td>
+       <a class="btn text-danger">
+      <i class="fa fa-trash" (click)="deleteEmployee(emp.id)"></i>
+      </a>
+     </td>
+
+
+    </tr> 
+<!--   
+<tr>
+<td>Shri</td>
+<td>Nayak</td>
+<td>Hassan</td>
+<td>
+        <a class="btn">
+<i class="fa fa-edit"></i>
+</a>
+</td>
+
+<td>
+        <a class="btn text-danger">
+        <i class="fa fa-trash"></i>
+        </a>
+        </td>
+</tr>
+
+<tr>
+        <td>Pooja</td>
+        <td>Kumari</td>
+        <td>Hassan</td>
+
+        <td>
+                <a class="btn">
+                <i class="fa fa-edit"></i>
+                </a>
+                </td>
+        <td>
+            
+        <a class="btn text-danger">
+        <i class="fa fa-trash"></i>
+        </a>
+        </td>
+        </tr> --> 
+</table> 
+
+<a  class="btn btn-outline-success" routerLink="/demo" type="button">Home</a>
+
+<!-- <input [(ngModel)]="msg">
+{{msg}} -->
+<tr >
+        <td>{{current.firstname}}</td>
+</tr>

@@ -1,0 +1,20 @@
+{
+  "Demo": [
+    {
+      "id": 1,
+      "firstname": "sony",
+      "Lastname": "Nayak",
+      "designation": "Developer",
+      "contact": 9874563210,
+      "address": "Hassan"
+    },
+    {
+      "id": 2,
+      "firstname": "Abc",
+      "Lastname": "Nayak",
+      "designation": "Developer",
+      "contact": 9874563210,
+      "address": "Hassan"
+    }
+  ]
+}
